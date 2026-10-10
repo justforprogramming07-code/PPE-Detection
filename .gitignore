@@ -1,0 +1,32 @@
+# Data & Models (too large for Git)
+data/
+runs/
+models/*.pt
+models/*.onnx
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# MLOps
+mlruns/
+.dvc/cache/
+.dvc/tmp/
+
+# Secrets
+.env
+*.key
+config.local.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
