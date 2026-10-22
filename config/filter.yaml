@@ -1,0 +1,15 @@
+# Behavior of the class-filter step. Edit this file, not the code.
+paths:
+  raw: data/raw
+  processed: data/processed
+  raw_data_yaml: data/raw/data.yaml
+
+splits: [train, val, test]
+image_extensions: [".jpg", ".jpeg"]
+
+# New class IDs follow this order: helmet=0, gloves=1, vest=2, boots=3, Person=4
+keep: [helmet, gloves, vest, boots, Person]
+remove: [goggles, none, no_helmet, no_goggle, no_gloves, no_boots]
+
+# strict = pipeline fails if a label file has no matching image
+orphan_labels: strict
