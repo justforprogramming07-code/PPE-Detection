@@ -1,0 +1,127 @@
+{
+  "splits": {
+    "train": {
+      "counts": {
+        "label_files_seen": 1142,
+        "instances_dropped": 2348,
+        "label_files_kept": 1138,
+        "images_copied": 1128,
+        "label_files_dropped": 4,
+        "images_missing": 10
+      },
+      "instances_before_by_class": {
+        "helmet": 1357,
+        "Person": 1790,
+        "none": 654,
+        "goggles": 427,
+        "vest": 1283,
+        "gloves": 1162,
+        "boots": 1251,
+        "no_helmet": 400,
+        "no_goggle": 337,
+        "no_gloves": 442,
+        "no_boots": 88
+      },
+      "instances_after_by_class": {
+        "helmet": 1357,
+        "Person": 1790,
+        "vest": 1283,
+        "gloves": 1162,
+        "boots": 1251
+      }
+    },
+    "val": {
+      "counts": {
+        "label_files_seen": 143,
+        "instances_dropped": 274,
+        "label_files_kept": 143,
+        "images_copied": 143
+      },
+      "instances_before_by_class": {
+        "helmet": 201,
+        "boots": 151,
+        "Person": 239,
+        "gloves": 136,
+        "vest": 171,
+        "goggles": 47,
+        "no_goggle": 41,
+        "none": 81,
+        "no_gloves": 56,
+        "no_helmet": 45,
+        "no_boots": 4
+      },
+      "instances_after_by_class": {
+        "helmet": 201,
+        "boots": 151,
+        "Person": 239,
+        "gloves": 136,
+        "vest": 171
+      }
+    },
+    "test": {
+      "counts": {
+        "label_files_seen": 141,
+        "instances_dropped": 271,
+        "label_files_kept": 141,
+        "images_copied": 141
+      },
+      "instances_before_by_class": {
+        "helmet": 192,
+        "Person": 236,
+        "vest": 178,
+        "gloves": 163,
+        "boots": 211,
+        "goggles": 52,
+        "no_helmet": 40,
+        "no_goggle": 33,
+        "none": 65,
+        "no_gloves": 58,
+        "no_boots": 23
+      },
+      "instances_after_by_class": {
+        "helmet": 192,
+        "Person": 236,
+        "vest": 178,
+        "gloves": 163,
+        "boots": 211
+      }
+    }
+  },
+  "total": {
+    "counts": {
+      "label_files_seen": 1426,
+      "instances_dropped": 2893,
+      "label_files_kept": 1422,
+      "images_copied": 1412,
+      "label_files_dropped": 4,
+      "images_missing": 10
+    },
+    "instances_before_by_class": {
+      "helmet": 1750,
+      "Person": 2265,
+      "none": 800,
+      "goggles": 526,
+      "vest": 1632,
+      "gloves": 1461,
+      "boots": 1613,
+      "no_helmet": 485,
+      "no_goggle": 411,
+      "no_gloves": 556,
+      "no_boots": 115
+    },
+    "instances_after_by_class": {
+      "helmet": 1750,
+      "Person": 2265,
+      "vest": 1632,
+      "gloves": 1461,
+      "boots": 1613
+    },
+    "id_map_old_to_new": {
+      "0 (helmet)": 0,
+      "1 (gloves)": 1,
+      "2 (vest)": 2,
+      "3 (boots)": 3,
+      "6 (Person)": 4
+    }
+  }
+}

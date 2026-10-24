@@ -1,0 +1,12 @@
+stages:
+  filter:
+    cmd: python src/data/data_filtering.py
+    deps:
+    - config/params.yaml
+    - data/raw
+    - src/data/data_filtering.py
+    outs:
+    - data/processed
+    metrics:
+    - reports/filter_report.json:
+        cache: false

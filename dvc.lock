@@ -1,0 +1,28 @@
+schema: '2.0'
+stages:
+  filter:
+    cmd: python src/data/data_filtering.py
+    deps:
+    - path: config/params.yaml
+      hash: md5
+      md5: 04727bec88f47408a8b0150beaafd32d
+      size: 408
+    - path: data/raw
+      hash: md5
+      md5: 714586b931c51caabf1678ef2151ebf7.dir
+      size: 180064630
+      nfiles: 2846
+    - path: src/data/data_filtering.py
+      hash: md5
+      md5: fa73c6a8173c27415472c445c72a5eb1
+      size: 5721
+    outs:
+    - path: data/processed
+      hash: md5
+      md5: 001939d41001f88ef9a4caa441e1f83b.dir
+      size: 178521190
+      nfiles: 2835
+    - path: reports/filter_report.json
+      hash: md5
+      md5: cb3fdcd0ac0f3a35fb949675616a08d7
+      size: 2922
