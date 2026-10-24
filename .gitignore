@@ -1,10 +1,11 @@
 # Data & Models (too large for Git)
-data/
+# DVC owns data/raw and data/processed; it writes its own ignore rules in data/.gitignore.
+data/external/
+data/processed_baseline_v0/
 runs/
 models/*.pt
 models/*.onnx
 *.pth
-
 # Python
 __pycache__/
 *.py[cod]
