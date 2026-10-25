@@ -19,9 +19,9 @@ stages:
     outs:
     - path: data/processed
       hash: md5
-      md5: 001939d41001f88ef9a4caa441e1f83b.dir
-      size: 178521190
-      nfiles: 2835
+      md5: fec1d1bef9026876f7251a61fd8f40f6.dir
+      size: 178517992
+      nfiles: 2825
     - path: reports/filter_report.json
       hash: md5
       md5: cb3fdcd0ac0f3a35fb949675616a08d7
