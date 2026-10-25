@@ -31,3 +31,8 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+# Project docs
+practitioners_guide_to_mlops_whitepaper.pdf
+tasks.ps1
+docs/
+notebooks/
